@@ -73,16 +73,16 @@ impact50 = createFont("Impact", 50)
 impact25 = createFont("Impact", 25)
 impact15 = createFont("Impact", 15)
 
-pointSound = pygame.mixer.Sound('pointSound.wav')
+pointSound = pygame.mixer.Sound('assets/sounds/pointSound.wav')
 pointSound.set_volume(0.3)
-hitSound = pygame.mixer.Sound('Blip1.wav')
+hitSound = pygame.mixer.Sound('assets/sounds/Blip1.wav')
 hitSound.set_volume(0.4)
-buttonPress = pygame.mixer.Sound('buttonClick.wav')
+buttonPress = pygame.mixer.Sound('assets/sounds/buttonClick.wav')
 buttonPress.set_volume(0.2)
 
-titleMusic = "Mysterious Start.ogg"
-gameMusic = "Conflict.ogg"
-despaMusic = "Loop of the Crazies.ogg"
+titleMusic = "assets/sounds/Mysterious Start.ogg"
+gameMusic = "assets/sounds/Conflict.ogg"
+despaMusic = "assets/sounds/Loop of the Crazies.ogg"
 
 # Colours
 WHITE = (255, 255, 255)
@@ -687,23 +687,23 @@ def scaleImage(image, targetWidth, targetHeight):
 display = initDisplay(width, height, isFullscreen)
 
 # Loads all the images 
-gameBackground = loadImage("spaceBack.png")
-titleScreen = loadImage("titleScreen.png")
-hostWinBackground = loadImage("hostBackground.png")
-guestWinBackground = loadImage("guestBackground.png")
-instructionsScreen = loadImage("instructions.png")
-creditsScreen = loadImage("credits.png")
-scoreBoard = loadImage("scoreboard.png")
+gameBackground = loadImage("assets/images/spaceBack.png")
+titleScreen = loadImage("assets/images/titleScreen.png")
+hostWinBackground = loadImage("assets/images/hostBackground.png")
+guestWinBackground = loadImage("assets/images/guestBackground.png")
+instructionsScreen = loadImage("assets/images/instructions.png")
+creditsScreen = loadImage("assets/images/credits.png")
+scoreBoard = loadImage("assets/images/scoreboard.png")
 
-pauseBackground = loadImageTransparent("pauseScreenBack1.png")
-gameLogo = loadImageTransparent("oofLogo.png")
-titleBarrier = loadImageTransparent("titleBarrier.png")
-titleText = loadImageTransparent("despongcito3.png")
-despaSpider = loadImageTransparent("despongcitoSpider.png")
-despaSpider2 = loadImageTransparent("despongcitoSpiderBU.png")
-settingScreen = loadImageTransparent("settingScreen.png")
-instructionBarrier = loadImageTransparent("instructionBackground.png")
-checkmark = loadImageTransparent("checkmark.png")
+pauseBackground = loadImageTransparent("assets/images/pauseScreenBack1.png")
+gameLogo = loadImageTransparent("assets/images/oofLogo.png")
+titleBarrier = loadImageTransparent("assets/images/titleBarrier.png")
+titleText = loadImageTransparent("assets/images/despongcito3.png")
+despaSpider = loadImageTransparent("assets/images/despongcitoSpider.png")
+despaSpider2 = loadImageTransparent("assets/images/despongcitoSpiderBU.png")
+settingScreen = loadImageTransparent("assets/images/settingScreen.png")
+instructionBarrier = loadImageTransparent("assets/images/instructionBackground.png")
+checkmark = loadImageTransparent("assets/images/checkmark.png")
 
 # Set the display caption and icon
 pygame.display.set_caption("Despongcito 3: In Space (Deluxe Edition) (Collector's Edition) V.0.19")
